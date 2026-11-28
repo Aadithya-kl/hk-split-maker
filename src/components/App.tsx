@@ -2,7 +2,7 @@ import type { ReactElement } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { useCurrentGame } from "../hooks";
-import type { Game } from "../store/game-slice";
+import type { Game } from "../lib/game-param";
 import AlertBanner from "./AlertBanner";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -27,7 +27,6 @@ export default function App(): ReactElement {
   };
 
   const onTabSelect = (index: number): void => {
-    // Only set query param here. AppWrapper will map query param to Redux store
     if (index === 0) {
       switchGame("hollowknight");
     }

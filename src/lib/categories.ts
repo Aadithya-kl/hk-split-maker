@@ -6,7 +6,7 @@
 import HKCategoryDirectory from "../asset/hollowknight/categories/category-directory.json";
 import type { CategoryDefinition } from "../asset/hollowknight/categories/category-directory.json.d";
 import SSCategoryDirectory from "../asset/silksong/categories/category-directory.json";
-import type { Game } from "../store/game-slice";
+import type { Game } from "../lib/game-param";
 
 interface CatContent {
   categoryName: string;

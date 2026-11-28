@@ -1,7 +1,7 @@
 import type { Document, Element, Node } from "@xmldom/xmldom";
 import { DOMParser } from "@xmldom/xmldom";
 import xml from "xml";
-import type { Game } from "../store/game-slice";
+import type { Game } from "../lib/game-param";
 import type { SplitDefinition } from "./hollowknight-splits";
 import { createLiveSplitIconData } from "./image-util";
 import { splitsFunctions } from "./splits";

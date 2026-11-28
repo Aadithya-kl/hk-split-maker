@@ -10,6 +10,7 @@ import type { CategoryDefinition } from "../asset/hollowknight/categories/catego
 import SSCategoryAnyPercent from "../asset/silksong/categories/any-bells.json";
 import { useCurrentGame } from "../hooks";
 import { getCategoryConfigJSON, getCategoryDirectory } from "../lib/categories";
+import type { Game } from "../lib/game-param";
 import type { Config } from "../lib/lss";
 import {
   buildSplitsFileName,
@@ -17,7 +18,6 @@ import {
   createSplitsXml,
   importSplitsXml,
 } from "../lib/lss";
-import type { Game } from "../store/game-slice";
 import ArrowButton from "./ArrowButton";
 import ShareButton from "./ShareButton";
 

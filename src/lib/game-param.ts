@@ -1,4 +1,4 @@
-import type { Game } from "../store/game-slice";
+export type Game = "hollowknight" | "silksong";
 
 export const DEFAULT_GAME: Game = "hollowknight";
 

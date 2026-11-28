@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { useCurrentGame } from "../hooks";
-import type { Game } from "../store/game-slice";
+import type { Game } from "../lib/game-param";
 
 const VIDEO_URL: Record<Game, { href: string; text: string }> = {
   hollowknight: {

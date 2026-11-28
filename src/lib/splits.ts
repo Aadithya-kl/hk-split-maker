@@ -1,4 +1,4 @@
-import type { Game } from "../store/game-slice";
+import type { Game } from "../lib/game-param";
 import {
   getIconURLs as hkGetIconURLs,
   getSelectOptionGroups as hkGetSelectOptionGroups,
